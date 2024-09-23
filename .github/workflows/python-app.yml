@@ -47,4 +47,4 @@ jobs:
       run: docker build -t flask-demo .
 
     - name: Pushing to Dockerhub
-      run: docker push strato2024/flask-demo:latest
+      run: docker push strato2024/flask-demo
