@@ -44,7 +44,7 @@ jobs:
       run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
 
     - name: Building Docker Image
-      run: docker build -t flask-demo .
+      run: docker build -t strato2024/flask-demo .
 
     - name: Pushing to Dockerhub
       run: docker push strato2024/flask-demo
