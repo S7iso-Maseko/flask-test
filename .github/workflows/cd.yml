@@ -17,4 +17,4 @@ jobs:
         run: sudo docker rm -f cicd-pipeline-cont || true
 
       - name: Pull Docker Image
-        run: sudo docker run -d -p 8080:5000 --name cicd-pipeline-cont strato2024/flask-demo
+        run: sudo docker run -d -p 5000:5000 --name cicd-pipeline-cont strato2024/flask-demo
